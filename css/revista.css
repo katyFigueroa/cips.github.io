@@ -1,0 +1,130 @@
+.container{
+	background-color: rgba(153,149,147,0.2);
+	background:contain;}/*{outline: 1px solid red;}*/
+.menu nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+}
+.menu nav ul {
+    margin: 0;
+    padding:0 -6px;
+    float: left;
+    list-style: none;
+    width: 960px;  
+}
+.menu nav li {
+    float:left;}
+nav a {
+    float:left;
+    padding: 8px;
+    /*padding: .2em 1.5em;*/
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 164px;
+    text-align: center;
+    border-style: solid;
+    border-color:rgba(153,149,147,0.2);;
+    background-color: #2D609D;
+    margin-left: 1px;            
+ }
+ .inicio{width: 132px;padding-left: -2px;border-left: 5px solid;
+ 	border-left-color:#2D609D ;margin-left: 2px;}
+ nav a:hover, nav a:focus {
+    outline: 0;
+    color:white;
+    background-color: #606060;
+    border:#606060;
+
+}
+.revista{border-right: 4px solid #2D609D; border-right-color: #2D609D;
+	padding-right: 10px;}
+.quienes-somos{
+	background-color: red;
+	border-left-color: red;
+}
+#revista{
+	background-color: #606060;
+	border-left-color: #606060;
+}
+.revista{
+	background-image: url(../img/revista.jpg);
+	background-position: 0% 5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	margin-top: 20px;
+}
+.revista .cintillo{
+	color: #2D609D;
+	background-color: #fff;
+	width: 300px;
+	margin-top: 220px;
+	padding: 7px;
+	opacity: 0.7;
+}
+.descripcion-revista{
+	padding: 20px 10px;
+	background-color: rgba(153,149,147,0.2 );
+}
+.descripcion-revista h3{
+	background-color: #2D609D;
+	padding: 5px  30px ;
+	color: #fff;
+	width: 700px;	
+	margin-left: -25px;
+}
+.descripcion-revista .col-9 p{
+	margin-top: 20px;	
+	text-align: justify;
+	
+}
+.publica{
+	width: 235px;
+	height: 200px;
+	background-image: url(../img/libro.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 15px;
+	margin-right: 0;
+	padding-right: -10px;
+	font-size: 24px;
+
+}
+.publica p{
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	top: 130px;
+	padding:3px 55px;
+	opacity: 0.8;
+}
+.publica a{
+	text-decoration: none;
+	color: #2D609D;
+}
+.descarga{
+	width: 235px;
+	height: 200px;
+	background-image: url(../img/descarga.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 24px;
+}
+.descarga p{
+	width: 100%;
+	position: relative;
+	background-color:#fff;
+	top: 140px;
+	padding:3px 55px;
+	opacity: 0.8;
+}
+.descarga a{
+	text-decoration: none;
+	color: #2D609D;
+}

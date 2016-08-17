@@ -1,0 +1,180 @@
+.container{
+	background-color: rgba(153,149,147,0.2);
+	background:contain;}/*{outline: 1px solid red;}*/
+
+.menu nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+}
+.menu nav ul {
+    margin: 0;
+    padding:0 -6px;
+    float: left;
+    list-style: none;
+    width: 960px;  
+}
+.menu nav li {
+    float:left;}
+nav a {
+    float:left;
+    padding: 8px;
+    /*padding: .2em 1.5em;*/
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 164px;
+    text-align: center;
+    border-style: solid;
+    border-color:rgba(153,149,147,0.2);;
+    background-color: #2D609D;
+    margin-left: 1px;            
+ }
+ .inicio{width: 132px;padding-left: -2px;border-left: 5px solid;
+ 	border-left-color:#2D609D ;margin-left: 2px;}
+ nav a:hover, nav a:focus {
+    outline: 0;
+    color:white;
+    background-color: #606060;
+    border:#606060;
+
+}
+.revista{border-right: 4px solid #2D609D; border-right-color: #2D609D;
+	padding-right: 10px;}
+.quienes-somos{
+	background-color: red;
+	border-left-color: red;
+}
+.bi{
+	background-color: #606060;
+	border-left-color: #606060;
+}
+.biblioteca{
+	background-image: url(../img/bibliotecav.jpg);
+	background-position: 4% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	margin-top: 20px;
+}
+.biblioteca .cintillo{
+	color: #2D609D;
+	background-color: #fff;
+	width: 350px;
+	margin-top: 220px;
+	padding: 7px;
+	opacity: 0.7;
+}
+.descripcion-biblioteca{
+	background-color: rgba(153,149,147,0.2 );
+	margin-top: 20px;
+}
+.list-biblioteca{
+	list-style: none;
+	padding:0px 20px 20px 0px;
+}
+
+.list-biblioteca h3{
+	background-color: #fff;	
+	color: #2D609D;
+	padding: 5px 30px; ;
+}
+.list-biblioteca p{
+	text-align: justify;
+	margin-left: 20px;
+}
+.list-biblioteca button{
+	float: right;
+	background-color:#2D609D;
+	padding: 5px;
+	color: white;
+}
+.list-biblioteca li{
+	margin-bottom: 20px;
+}
+
+.paginas{
+	background-color:#2D609D;
+	opacity: 0.8;
+	padding-top: 5px;
+
+}
+.paginas h3{
+	background-color: #fff;
+	padding: 5px 8px;
+	width: 240px;
+	margin-left: -14px;
+	color: #2D609D;
+}
+.list-paginas{
+		margin: 0;
+		padding: 10px;
+}
+
+.list-paginas li{
+	margin-left: 10px;
+	color: #fff;
+}
+.list-paginas li a{
+	color: #fff;
+}
+/*COMIENZA EL SLIDER*/
+.galeria{
+	background-color: rgba(153,149,147,0.2 );
+
+}
+.galeria h3{
+	position: relative;
+    bottom:10px;
+    background-color: #2D609D;
+    margin-top: 30px;
+    color: #fff;
+    padding: 5px 30px;
+
+}
+.galeria .btnanterior{
+	position: relative;
+	display: block;
+	top: 120px;
+	border: none;
+	background-color: transparent;
+	left: 20px;
+
+}
+.galeria span{
+	height: 20px;
+}
+.galeria .btnsiguiente{
+	position: relative;
+	bottom: 130px;
+	left: 925px;
+	border: none;
+	background-color: transparent;
+}
+.slider{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	padding: 10px;
+
+}
+.slider ul{
+	text-decoration: none;
+	display: flex;
+	margin: 0;
+	width: 300%;
+	transition: all 1s;
+
+}
+.slider li{
+	list-style: none;
+	width: 8%;
+	margin-right: 12px;
+}
+.slider img{
+	width: 100%;
+	height: 210px;
+	border:1px solid rgba(0, 0, 0, 0.3);
+}
